@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-background: #0f172a;
+    --color-foreground: #f8fafc;
+    --color-surface: #1e293b;
+    --color-muted: #94a3b8;
+    --color-border: #334155;
+    --font-size-base: 18px;
+    --font-size-highlight: 24px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: var(--font-size-base);
+  }
+
+  body {
+    @apply bg-background text-base text-foreground font-sans antialiased;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: var(--font-size-base);
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .bg-dot-pattern {
+    background-image: radial-gradient(
+      circle,
+      rgba(148, 163, 184, 0.25) 1px,
+      transparent 1px
+    );
+    background-size: 20px 20px;
+  }
+
+  .text-highlight {
+    font-size: var(--font-size-highlight);
+  }
+
+  .text-gradient-highlight {
+    font-size: var(--font-size-highlight);
+    background-image: linear-gradient(
+      90deg,
+      #7dd3fc 0%,
+      #3b82f6 30%,
+      #6366f1 65%,
+      #a855f7 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
