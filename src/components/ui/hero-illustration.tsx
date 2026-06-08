@@ -9,7 +9,7 @@ export function HeroIllustration() {
       className="mx-auto w-full max-w-sm md:max-w-2xl 2xl:max-w-3xl"
     >
       <motion.img
-        src="/hero-illustration.svg"
+        src={`${import.meta.env.BASE_URL}hero-illustration.svg`}
         alt="Developer workspace illustration"
         className="mx-auto h-80 w-full md:h-auto"
         animate={{ y: [0, -10, 0] }}
