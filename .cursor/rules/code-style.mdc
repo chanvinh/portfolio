@@ -1,0 +1,31 @@
+---
+description: Code Style Rules
+alwaysApply: true
+---
+
+Coding Standards:
+
+- Use TypeScript strictly
+- No any type
+- Component per file
+- Max 300 lines per component
+
+Naming:
+
+Components:
+PascalCase
+
+Hooks:
+useSomething
+
+Variables:
+camelCase
+
+Folders:
+kebab-case
+
+Always:
+
+- Add comments for complex logic
+- Extract reusable code
+- Use async/await

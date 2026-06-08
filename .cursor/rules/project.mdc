@@ -1,0 +1,28 @@
+---
+description: Portfolio Project Rules
+globs:
+alwaysApply: true
+---
+
+# Project Overview
+
+This project is a personal portfolio website.
+
+Goals:
+- Modern design
+- Fast loading
+- Mobile responsive
+- SEO friendly
+- Clean code structure
+
+Pages:
+- Home
+- About
+- Skills
+- Experience
+- Contact
+
+Requirements:
+- Responsive on all devices
+- Accessibility support
+- Smooth animations
