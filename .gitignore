@@ -45,3 +45,6 @@ coverage
 # Cache
 .cache
 .eslintcache
+
+# Cursor
+.cursor
