@@ -51,7 +51,7 @@ export const vi: LocaleData = {
     teamSizeLabel: "Quy mô team:",
     items: {
       fis: {
-        role: "Hệ thống FIS (Full Stack) (Support Team)",
+        role: "Hệ thống thông tin tài chính (Full Stack) (Support Team)",
         highlights: [
           "Lên lịch kiểm tra",
           "Quản lý checklist kiểm tra",
@@ -63,7 +63,7 @@ export const vi: LocaleData = {
         ],
       },
       pubcare: {
-        role: "Hệ thống PubCare (Full Stack)",
+        role: "Hệ thống y tế công cộng & chăm sóc (Full Stack)",
         highlights: [
           "Hệ thống quản lý y tế (PHR/EHR)",
           "Hệ thống quản lý bệnh nhân",
@@ -74,7 +74,7 @@ export const vi: LocaleData = {
         ],
       },
       smo: {
-        role: "Hệ thống SMO (Front End)",
+        role: "Hệ thống sỹ quan y tế thông minh (Front End)",
         highlights: [
           "Quản lý và theo dõi hoạt động thông tin bác sĩ",
           "Phân tích và báo cáo dữ liệu thông tin bác sĩ",
@@ -83,7 +83,7 @@ export const vi: LocaleData = {
         ],
       },
       ucaro: {
-        role: "Hệ thống UCARO (Front End)",
+        role: "Hệ thống tuyển sinh & Đăng ký đại học (Front End)",
         highlights: [
           "Tìm kiếm và thu thập thông tin các trường đại học",
           "Đăng ký thi trực tuyến",
@@ -94,7 +94,7 @@ export const vi: LocaleData = {
         ],
       },
       nehop: {
-        role: "Hệ thống NEHOP (Front End)",
+        role: "Hệ thống quản lý khách sạn (Front End)",
         highlights: [
           "Quản lý vận hành khách sạn: tài khoản, đặt phòng và quản lý phòng",
           "Viết tài liệu Detail Design và Unit Test",
@@ -102,7 +102,7 @@ export const vi: LocaleData = {
         ],
       },
       kwn: {
-        role: "Hệ thống KWN (Front End)",
+        role: "Hệ thống quản lý tri thức (Front End)",
         highlights: [
           "Quản lý hoạt động admin và tài khoản",
           "Thao tác CRUD và theo dõi tiến độ",
@@ -111,7 +111,7 @@ export const vi: LocaleData = {
         ],
       },
       "core-banking": {
-        role: "Hệ thống Core Banking (Front End)",
+        role: "Hệ thống ngân hàng (Front End)",
         highlights: [
           "Quản lý hoạt động ngân hàng: tài khoản, tiền gửi và cho vay",
           "Triển khai tính năng mới và sửa lỗi theo yêu cầu khách hàng",

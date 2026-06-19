@@ -50,7 +50,7 @@ export const en: LocaleData = {
     teamSizeLabel: "Team size:",
     items: {
       fis: {
-        role: "FIS System (Full Stack) (Support Team)",
+        role: "Financial Information System (Full Stack) (Support Team)",
         highlights: [
           "Inspection Scheduling",
           "Inspection Checklist Management",
@@ -62,7 +62,7 @@ export const en: LocaleData = {
         ],
       },
       pubcare: {
-        role: "PubCare System (Full Stack)",
+        role: "Public Health & Care System (Full Stack)",
         highlights: [
           "Healthcare Management System (PHR/EHR)",
           "Patient Management System",
@@ -73,7 +73,7 @@ export const en: LocaleData = {
         ],
       },
       smo: {
-        role: "SMO System (Front End)",
+        role: "Smart Medical Officer System (Front End)",
         highlights: [
           "Manage and monitor doctor information activities",
           "Analyze and report doctor information data",
@@ -82,7 +82,7 @@ export const en: LocaleData = {
         ],
       },
       ucaro: {
-        role: "UCARO System (Front End)",
+        role: "University Admission & Registration System (Front End)",
         highlights: [
           "Search and gather information about universities",
           "Register for exams online",
@@ -93,7 +93,7 @@ export const en: LocaleData = {
         ],
       },
       nehop: {
-        role: "NEHOP System (Front End)",
+        role: "Hotel Management System (Front End)",
         highlights: [
           "Manage hotel operations: accounts, room bookings, and room management",
           "Write Detail Design and Unit Test documents",
@@ -101,7 +101,7 @@ export const en: LocaleData = {
         ],
       },
       kwn: {
-        role: "KWN System (Front End)",
+        role: "Knowledge Management System (Front End)",
         highlights: [
           "Manage admin activities and account management",
           "CRUD operations and progress tracking",
