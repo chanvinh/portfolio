@@ -36,10 +36,10 @@ export const vi: LocaleData = {
       sectionLabel: "Giới thiệu & Kỹ năng",
       introTitle: "Xin chào! Tôi là {name}, {role}",
       intro:
-        "Lập trình viên Front-end với hơn 3,5 năm kinh nghiệm ReactJS và NextJS, chuyên về các nền tảng thương mại điện tử và đặt chỗ quy mô lớn. Tập trung vào trải nghiệm người dùng và tối ưu hiệu năng, tôi cũng có thể đảm nhận các tác vụ full-stack khi cần. Luôn học hỏi công nghệ mới và cam kết nâng cao trải nghiệm khách hàng.",
+        "Lập trình viên Frontend với hơn 3,5 năm kinh nghiệm xây dựng các ứng dụng web có khả năng mở rộng bằng React.js, Next.js, React Native, TypeScript và các công nghệ frontend hiện đại. Thành thạo kiến trúc component, quản lý state, tích hợp API và unit testing. Đam mê sử dụng các công cụ phát triển hỗ trợ AI như ChatGPT, Cursor AI, GitHub Copilot và Gemini để nâng cao hiệu quả phát triển và chất lượng mã nguồn.",
       expertiseTitle: "Lĩnh vực chính là phát triển front-end",
       expertise:
-        "HTML, CSS, JS, xây dựng ứng dụng web nhỏ và vừa với NextJS hoặc React, tính năng, animation và layout tương tác. Tôi cũng có kinh nghiệm full-stack với các framework JavaScript phổ biến như NestJS, NodeJS",
+        "Luôn chủ động, có kỹ năng giải quyết vấn đề, quản lý thời gian và giao tiếp tốt, có khả năng thích ứng nhanh với công nghệ mới và yêu cầu nghiệp vụ. Có kinh nghiệm HTML5, CSS3, JavaScript/TypeScript, xây dựng ứng dụng web quy mô vừa và lớn với React và Next.js, cùng Redux, React Query, React Hook Form và unit testing với Jest và Vitest.",
       techStackTitle: "Tech stack của tôi",
     },
   },

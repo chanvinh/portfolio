@@ -36,10 +36,10 @@ export const en: LocaleData = {
       sectionLabel: "About me & Skills",
       introTitle: "Hi! I'm {name}, A {role}",
       intro:
-        "A skilled Front-end Developer with 3.5+ years of experience in ReactJS and NextJS, specializing in scalable e-commerce and booking platforms. Focused on user experience and performance optimization, I am also capable of handling full-stack tasks as needed. Dedicated to mastering new technologies, I am committed to enhancing customer experiences.",
+        "Frontend Developer with over 3.5 years of experience building scalable web applications using React.js, Next.js, React Native, TypeScript, and modern frontend technologies. Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as ChatGPT, Cursor AI, GitHub Copilot, and Gemini to improve development efficiency and code quality.",
       expertiseTitle: "The main area of expertise is front end development",
       expertise:
-        "HTML, CSS, JS, building small and medium web applications with NextJS or React, features, animations, and coding interactive layouts. I have also full-stack developer experience with one of the most popular javascript frameworks NestJS, NodeJS",
+        "A proactive team player with strong problem-solving, time management, and communication skills, capable of adapting quickly to new technologies and business requirements. Experienced in HTML5, CSS3, JavaScript/TypeScript, building medium to large web applications with React and Next.js, along with Redux, React Query, React Hook Form, and unit testing with Jest and Vitest.",
       techStackTitle: "My tech stack",
     },
   },
