@@ -6,7 +6,7 @@ import { ExperienceCard } from "@/components/sections/experience-card";
 
 export function Experience() {
   const { t } = useLocale();
-  const { title, subtitle, techStackLabel, teamSizeLabel, items } =
+  const { title, subtitle, techStackLabel,  items } =
     t.experience;
 
   return (
@@ -36,7 +36,6 @@ export function Experience() {
                     entry={entry}
                     translation={translation}
                     techStackLabel={techStackLabel}
-                    teamSizeLabel={teamSizeLabel}
                   />
                 </article>
               </FadeIn>
