@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import type { ExperienceEntry } from "@/data/experiences";
 import type { ExperienceTranslation } from "@/types";
 import { useLocale } from '@/context/locale-context';
