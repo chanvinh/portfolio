@@ -41,6 +41,7 @@ export interface LocaleData {
     title: string;
     subtitle: string;
     techStackLabel: string;
+    productivityLabel?: string;
     items: Record<string, ExperienceTranslation>;
   };
   contact: {

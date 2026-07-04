@@ -1,41 +1,39 @@
 export interface ExperienceEntry {
   id: string;
-  company: string;
   techStack: string;
+  productivityTools?: string;
 }
 
 export const experienceEntries: ExperienceEntry[] = [
   {
     id: "fis",
-    company: "ISB Vietnam - IVC",
     techStack:
-      "ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS, Copilot",
+      "ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS",
+    productivityTools:
+      "GitHub Copilot (Used for boilerplate code generation and Vitest unit testing scaffolding)",
   },
   {
     id: "smo",
-    company: "ISB Vietnam - IVC",
-    techStack: "Google Apps Script (GAS), A5:SQL, jQuery, Cursor AI",
+    techStack: "Google Apps Script (GAS), JQuery, A5:SQL",
+    productivityTools:
+      "Cursor AI (Used for legacy code refactoring and rapid prototyping)",
   },
   {
     id: "ucaro",
-    company: "ISB Vietnam - IVC",
     techStack:
       "Next.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest",
   },
   {
     id: "nehop",
-    company: "ISB Vietnam - IVC",
     techStack:
       "Angular, CSS, HTML, PostgreSQL, Excel, VB.Net, Java Spring Batch",
   },
   {
     id: "kwn",
-    company: "ISB Vietnam - IVC",
     techStack: "PHP, HTML, JavaScript, jQuery, SASS, DataTableJs",
   },
   {
     id: "core-banking",
-    company: "ISB Vietnam - IVC",
     techStack:
       "TypeScript, Next.js, Redux Saga, Styled Components, i18n, Jest, React.js",
   },
