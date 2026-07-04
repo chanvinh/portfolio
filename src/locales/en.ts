@@ -85,7 +85,7 @@ export const en: LocaleData = {
         ],
       },
       kwn: {
-        role: "Knowledge Management System (Front End)",
+        role: "Knowledge Management System (Full Stack)",
         highlights: [
           "Successfully modernized the legacy application by migrating the codebase from PHP 5 to PHP 8, ensuring 100% backward compatibility while enhancing overall system security",
           "Optimized legacy SQL queries and data rendering tables (DataTableJs), reducing page load times for administrative dashboards",
