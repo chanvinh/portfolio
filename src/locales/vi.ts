@@ -51,7 +51,7 @@ export const vi: LocaleData = {
     productivityLabel: "Productivity Tools:",
     items: {
       fis: {
-        role: "Hệ thống thông tin tài chính (Full Stack) (Support Team)",
+        role: "Hệ thống thông tin tài chính (Full Stack)",
         highlights: [
           "Phát triển và tối ưu hóa các phân hệ cốt lõi bao gồm Lên lịch kiểm tra (Inspection Scheduling) và Ký số (Digital Signature), đảm bảo trải nghiệm người dùng mượt mà trên nhiều nền tảng bằng cách sử dụng Vue.js và Quasar",
           "Thiết kế các cấu trúc cơ sở dữ liệu SQL Server có khả năng mở rộng cao và tối ưu hóa các hàm thủ tục (stored procedures) phức tạp, giúp cải thiện đáng kể thời gian phản hồi truy vấn đối với các báo cáo kiểm tra có dữ liệu lớn",

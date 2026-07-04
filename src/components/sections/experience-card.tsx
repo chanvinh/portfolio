@@ -1,5 +1,7 @@
+import { useEffect, useMemo, useState } from 'react'
 import type { ExperienceEntry } from "@/data/experiences";
 import type { ExperienceTranslation } from "@/types";
+import { useLocale } from '@/context/locale-context';
 
 interface ExperienceCardProps {
   entry: ExperienceEntry;
@@ -14,6 +16,15 @@ export function ExperienceCard({
   techStackLabel,
   productivityLabel,
 }: ExperienceCardProps) {
+
+  const { locale } = useLocale();
+
+  const productivityTools = useMemo(() => {
+    return locale === "en"
+      ? entry.productivityToolsEn
+      : entry.productivityToolsVi;
+  }, [locale])
+
   return (
     <div className="rounded-xl border border-border bg-surface p-6 transition-colors duration-200 hover:border-primary/30">
       <div className="space-y-1">
@@ -27,10 +38,10 @@ export function ExperienceCard({
         </p>
       </div>
 
-      {entry.productivityTools && (<div className="mt-3 space-y-2 text-base leading-relaxed">
+      {(entry.productivityToolsEn || entry.productivityToolsVi) && (<div className="mt-3 space-y-2 text-base leading-relaxed">
         <p className="text-muted">
           <span className="font-medium text-foreground">{productivityLabel}</span>{" "}
-          {entry.productivityTools}
+          {productivityTools}
         </p>
       </div>)}
 

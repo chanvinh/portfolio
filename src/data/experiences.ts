@@ -1,7 +1,8 @@
 export interface ExperienceEntry {
   id: string;
   techStack: string;
-  productivityTools?: string;
+  productivityToolsEn?: string;
+  productivityToolsVi?: string;
 }
 
 export const experienceEntries: ExperienceEntry[] = [
@@ -9,14 +10,18 @@ export const experienceEntries: ExperienceEntry[] = [
     id: "fis",
     techStack:
       "ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS",
-    productivityTools:
+    productivityToolsEn:
       "GitHub Copilot (Used for boilerplate code generation and Vitest unit testing scaffolding)",
+    productivityToolsVi:
+      "GitHub Copilot (Sử dụng để tự động tạo mã nguồn mẫu và dựng khung kiểm thử đơn vị với Vitest).",
   },
   {
     id: "smo",
     techStack: "Google Apps Script (GAS), JQuery, A5:SQL",
-    productivityTools:
+    productivityToolsEn:
       "Cursor AI (Used for legacy code refactoring and rapid prototyping)",
+    productivityToolsVi:
+      "Cursor AI (Sử dụng để tái cấu trúc mã nguồn cũ và xây dựng nhanh các bản mẫu thử nghiệm)",
   },
   {
     id: "ucaro",
