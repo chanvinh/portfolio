@@ -93,7 +93,7 @@ export const en: LocaleData = {
         ],
       },
       "core-banking": {
-        role: "Core Banking System (Front End)",
+        role: "Banking Transaction System (Front End)",
         highlights: [
           "Developed and maintained mission-critical enterprise banking modules (deposits, loans) using Next.js and TypeScript, meeting strict performance and security standards",
           "Managed complex asynchronous data flows and API side-effects efficiently using Redux Saga, ensuring real-time data consistency for financial transactions",
