@@ -36,7 +36,7 @@ export const en: LocaleData = {
       sectionLabel: "About me & Skills",
       introTitle: "Hi! I'm {name}, A {role}",
       intro:
-        "Frontend Developer with over 3.5 years of experience building scalable web applications using React.js, Next.js, React Native, TypeScript, and modern frontend technologies. Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as ChatGPT, Cursor AI, GitHub Copilot, and Gemini to improve development efficiency and code quality.",
+        "Frontend Developer with over 4 years of experience building scalable web applications using React.js, Next.js, React Native, TypeScript, and modern frontend technologies. Skilled in component-based architecture, state management, API integration, and unit testing. Passionate about leveraging AI-assisted development tools such as ChatGPT, Cursor AI, GitHub Copilot, and Gemini to improve development efficiency and code quality.",
       expertiseTitle: "The main area of expertise is front end development",
       expertise:
         "A proactive team player with strong problem-solving, time management, and communication skills, capable of adapting quickly to new technologies and business requirements. Experienced in HTML5, CSS3, JavaScript/TypeScript, building medium to large web applications with React and Next.js, along with Redux, React Query, React Hook Form, and unit testing with Jest and Vitest.",
@@ -45,7 +45,7 @@ export const en: LocaleData = {
   },
   experience: {
     title: "Experiences",
-    subtitle: "Projects I've worked on at ISB Vietnam - IVC over 3.5+ years.",
+    subtitle: "Projects I've worked on at ISB Vietnam - IVC over 4+ years.",
     techStackLabel: "Tech stack:",
     productivityLabel: "Productivity Tools:",
     items: {

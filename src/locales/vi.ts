@@ -36,7 +36,7 @@ export const vi: LocaleData = {
       sectionLabel: "Giới thiệu & Kỹ năng",
       introTitle: "Xin chào! Tôi là {name}, {role}",
       intro:
-        "Lập trình viên Frontend với hơn 3,5 năm kinh nghiệm xây dựng các ứng dụng web có khả năng mở rộng bằng React.js, Next.js, React Native, TypeScript và các công nghệ frontend hiện đại. Thành thạo kiến trúc component, quản lý state, tích hợp API và unit testing. Đam mê sử dụng các công cụ phát triển hỗ trợ AI như ChatGPT, Cursor AI, GitHub Copilot và Gemini để nâng cao hiệu quả phát triển và chất lượng mã nguồn.",
+        "Lập trình viên Frontend với hơn 4 năm kinh nghiệm xây dựng các ứng dụng web có khả năng mở rộng bằng React.js, Next.js, React Native, TypeScript và các công nghệ frontend hiện đại. Thành thạo kiến trúc component, quản lý state, tích hợp API và unit testing. Đam mê sử dụng các công cụ phát triển hỗ trợ AI như ChatGPT, Cursor AI, GitHub Copilot và Gemini để nâng cao hiệu quả phát triển và chất lượng mã nguồn.",
       expertiseTitle: "Lĩnh vực chính là phát triển front-end",
       expertise:
         "Luôn chủ động, có kỹ năng giải quyết vấn đề, quản lý thời gian và giao tiếp tốt, có khả năng thích ứng nhanh với công nghệ mới và yêu cầu nghiệp vụ. Có kinh nghiệm HTML5, CSS3, JavaScript/TypeScript, xây dựng ứng dụng web quy mô vừa và lớn với React và Next.js, cùng Redux, React Query, React Hook Form và unit testing với Jest và Vitest.",
@@ -46,7 +46,7 @@ export const vi: LocaleData = {
   experience: {
     title: "Kinh nghiệm",
     subtitle:
-      "Các dự án tôi đã tham gia tại ISB Vietnam - IVC trong hơn 3,5 năm.",
+      "Các dự án tôi đã tham gia tại ISB Vietnam - IVC trong hơn 4+ năm.",
     techStackLabel: "Tech stack:",
     productivityLabel: "Productivity Tools:",
     items: {
