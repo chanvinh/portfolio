@@ -26,7 +26,7 @@ export const experienceEntries: ExperienceEntry[] = [
   {
     id: "ucaro",
     techStack:
-      "Next.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest",
+      "Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest",
   },
   {
     id: "nehop",
