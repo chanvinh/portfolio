@@ -36,7 +36,7 @@ export const en: LocaleData = {
       sectionLabel: "About me & Skills",
       introTitle: "Hi! I'm {name}, A {role}",
       intro:
-        "Full Stack Developer with 4+ years of experience building enterprise web applications, with strong expertise in frontend development using React.js, Next.js, TypeScript, and JavaScript. Experienced in developing scalable UI architectures, state management, API integration, automated testing, and backend services using ASP.NET Core and PHP Laravel. Worked across banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional teams and clients to deliver production-ready solutions.",
+        "Software Developer with 4+ years of experience building enterprise web applications, with strong expertise in frontend development using React.js, Next.js, TypeScript, and JavaScript. Experienced in developing scalable UI architectures, state management, API integration, automated testing, and backend services using ASP.NET Core and PHP Laravel. Worked across banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional teams and clients to deliver production-ready solutions.",
       expertiseTitle: "The main area of expertise is front end development",
       expertise:
         "A proactive team player with strong problem-solving, time management, and communication skills, capable of adapting quickly to new technologies and business requirements. Experienced in HTML5, CSS3, JavaScript/TypeScript, building medium to large web applications with React and Next.js, along with Redux, React Query, React Hook Form, and unit testing with Jest and Vitest.",
