@@ -9,7 +9,7 @@ export const experienceEntries: ExperienceEntry[] = [
   {
     id: "core-banking",
     techStack:
-      "TypeScript, Next.js, Redux Saga, Styled Components, i18n, Jest, React.js",
+      "TypeScript, Next.js, Redux Saga, Styled Components, i18n, Jest, React.js, Storybook",
   },
   {
     id: "ucaro",
