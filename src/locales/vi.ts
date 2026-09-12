@@ -36,7 +36,7 @@ export const vi: LocaleData = {
       sectionLabel: "Giới thiệu & Kỹ năng",
       introTitle: "Xin chào! Tôi là {name}, {role}",
       intro:
-        "Lập trình viên phần mềm với hơn 4 năm kinh nghiệm phát triển các ứng dụng web quy mô doanh nghiệp, sở hữu chuyên môn vững chắc về phát triển frontend sử dụng React.js, Next.js, TypeScript và JavaScript. Có kinh nghiệm xây dựng kiến ​​trúc giao diện (UI) có khả năng mở rộng, quản lý trạng thái, tích hợp API, kiểm thử tự động và phát triển các dịch vụ backend bằng ASP.NET Core và PHP Laravel. Đã từng làm việc trong các lĩnh vực ngân hàng, giáo dục, y tế, thông tin tài chính và hệ thống quản lý doanh nghiệp; phối hợp chặt chẽ với các nhóm đa chức năng và khách hàng để triển khai các giải pháp hoàn thiện, sẵn sàng đưa vào vận hành thực tế.",
+        "Nhà phát triển phần mềm có hơn 4 năm kinh nghiệm xây dựng các ứng dụng web doanh nghiệp, có chuyên môn vững chắc về React.js, Next.js, TypeScript và Hệ thống thiết kế giao diện người dùng. Thành tích đã được chứng minh trong việc tối ưu hóa Core Web Vitals, phát triển giao diện người dùng có thể truy cập, phát triển theo hướng thành phần với Storybook và thiết kế Kiến trúc thông tin hiệu quả. Có kinh nghiệm phát triển kiến ​​trúc giao diện người dùng có thể mở rộng, quản lý trạng thái, tích hợp API, kiểm tra tự động và dịch vụ phụ trợ bằng ASP.NET Core và PHP Laravel. Làm việc trên các hệ thống ngân hàng, giáo dục, y tế, thông tin tài chính và quản lý kinh doanh, cộng tác với các nhóm chức năng chéo và khách hàng để cung cấp các giải pháp sẵn sàng cho sản xuất.",
       expertiseTitle: "Lĩnh vực chính là phát triển front-end",
       expertise:
         "Luôn chủ động, có kỹ năng giải quyết vấn đề, quản lý thời gian và giao tiếp tốt, có khả năng thích ứng nhanh với công nghệ mới và yêu cầu nghiệp vụ. Có kinh nghiệm HTML5, CSS3, JavaScript/TypeScript, xây dựng ứng dụng web quy mô vừa và lớn với React và Next.js, cùng Redux, React Query, React Hook Form và unit testing với Jest và Vitest.",
@@ -54,7 +54,7 @@ export const vi: LocaleData = {
         role: "Banking Transaction System (Front End)",
         highlights: [
           "Phát triển và bảo trì các mô-đun ngân hàng trọng yếu, bao gồm quy trình gửi tiền và cho vay, sử dụng Next.js, React.js và TypeScript.",
-          "riển khai các luồng dữ liệu bất đồng bộ phức tạp và xử lý các tác dụng phụ (side effects) của API bằng Redux Saga để hỗ trợ quy trình giao dịch tài chính.",
+          "Triển khai các luồng dữ liệu bất đồng bộ phức tạp và xử lý các tác dụng phụ (side effects) của API bằng Redux Saga để hỗ trợ quy trình giao dịch tài chính.",
           "Xây dựng các thành phần giao diện (UI components) có khả năng tái sử dụng và mở rộng trong hệ thống thiết kế nội bộ, giúp tăng tính nhất quán và hiệu suất phát triển của cả nhóm.",
           "Tham gia đánh giá mã nguồn (code review) và hướng dẫn các lập trình viên cấp dưới nhằm nâng cao chất lượng mã và quy trình phát triển.",
           "Đóng góp vào việc xây dựng các công cụ phát triển nội bộ và cải tiến quy trình làm việc để tăng hiệu suất phát triển front-end.",
