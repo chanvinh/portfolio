@@ -88,7 +88,10 @@ export const vi: LocaleData = {
         role: "Pubcare System (Full Stack)",
         highlights: [
           "Phát triển các mô-đun full-stack cho quy trình xếp hàng chờ khám, đặt lịch hẹn và hệ thống thông báo tự động.",
+          "Phối hợp trực tiếp với khách hàng để phân tích yêu cầu nghiệp vụ và chuyển đổi chúng thành các giải pháp kỹ thuật.",
           "Tối ưu hóa quy trình làm việc ở giao diện người dùng (frontend) và các REST API phía máy chủ (backend) dành cho nhân viên y tế, đồng thời triển khai cơ chế kiểm tra dữ liệu đầu vào và phân quyền truy cập dựa trên vai trò.",
+          "Hỗ trợ giai đoạn Kiểm thử chấp nhận người dùng (UAT) bằng cách giải quyết các vấn đề về chức năng và làm rõ các yêu cầu kỹ thuật.",
+          "Đóng góp vào việc phát triển dịch vụ backend và tạo các kịch bản kiểm thử tự động bằng GitHub Copilot, giúp giảm 20% thời gian triển khai tính năng.",
         ],
       },
       kwn: {

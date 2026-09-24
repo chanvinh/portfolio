@@ -9,7 +9,7 @@ export const experienceEntries: ExperienceEntry[] = [
   {
     id: "core-banking",
     techStack:
-      "TypeScript, Next.js, Redux Saga, Styled Components, i18n, Jest, React.js, Storybook",
+      "TypeScript, Next.js, React.js, Redux Saga, Styled Components, Formik, Yup, i18n, Jest, Storybook",
   },
   {
     id: "ucaro",
@@ -32,7 +32,12 @@ export const experienceEntries: ExperienceEntry[] = [
   },
   {
     id: "pubcare",
-    techStack: "PHP Laravel, JavaScript, jQuery, Docker, MySQL",
+    techStack:
+      "Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest. PHP Laravel, Docker, MySQL",
+    productivityToolsEn:
+      "GitHub Copilot (Used for boilerplate code generation and Jest unit testing scaffolding)",
+    productivityToolsVi:
+      "GitHub Copilot (Sử dụng để tự động tạo mã nguồn mẫu và dựng khung kiểm thử đơn vị với Jest).",
   },
   {
     id: "kwn",

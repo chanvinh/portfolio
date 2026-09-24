@@ -87,7 +87,10 @@ export const en: LocaleData = {
         role: "Pubcare System (Full Stack)",
         highlights: [
           "Developed full-stack modules for patient queuing, appointment booking, and automated notifications",
+          "Collaborated directly with clients to analyze business requirements and translate them into technical solutions.",
           "Optimized frontend workflows and backend REST APIs for medical staff while implementing input validation and role-based access control.",
+          "Supported User Acceptance Testing (UAT) by resolving functional issues and clarifying technical requirements.",
+          "Contributed to backend service development and automated test-case generation using GitHub Copilot, reducing feature delivery time by 20%.",
         ],
       },
       kwn: {
