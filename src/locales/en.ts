@@ -16,7 +16,7 @@ export const en: LocaleData = {
     closeMenu: "Close menu",
   },
   profile: {
-    role: "Web Developer",
+    role: "Full-Stack Software Engineer",
     hero: {
       greeting: {
         before: "Hi! I'm Chan Vinh, A ",
@@ -36,10 +36,10 @@ export const en: LocaleData = {
       sectionLabel: "About me & Skills",
       introTitle: "Hi! I'm {name}, A {role}",
       intro:
-        "Software Developer with 4+ years of experience building enterprise web applications, with strong expertise in React.js, Next.js, TypeScript, and UI Design Systems. Proven track record in optimizing Core Web Vitals, developing accessible UIs, component-driven development with Storybook, and designing effective Information Architecture. Worked across banking, education, healthcare, financial information, and business management systems, collaborating with cross-functional teams and clients to deliver production-ready solutions.",
-      expertiseTitle: "The main area of expertise is front end development",
+        "Full-Stack Software Engineer with 4+ years shipping production enterprise web applications across banking, healthcare, education, and financial information systems. I own features end-to-end: React/Next.js and Vue.js frontends through ASP.NET Core, PHP Laravel, and Java Spring Boot RESTful APIs on PostgreSQL, SQL Server, and MySQL, with clean architecture, strict validation (Yup, Zod), and RBAC integration. Most recently I built a financial document workflow system, a clinic queue management SaaS, and an enterprise banking transaction platform.",
+      expertiseTitle: "Full-stack web development, from accessible UIs to secure APIs",
       expertise:
-        "A proactive team player with strong problem-solving, time management, and communication skills, capable of adapting quickly to new technologies and business requirements. Experienced in HTML5, CSS3, JavaScript/TypeScript, building medium to large web applications with React and Next.js, along with Redux, React Query, React Hook Form, and unit testing with Jest and Vitest.",
+        "I work across the full product delivery lifecycle: designing secure backend services, optimizing database query performance, building accessible UI systems, and speeding up delivery with AI tooling (GitHub Copilot, Cursor AI). I review and confirm technical specs and business requirements in English, have experience working with Japanese clients, and have led teams as a sub-leader. A problem solver with strong time management and teamwork who adapts quickly to new technologies. Currently researching Microservices, CI/CD with GitHub Actions, and AWS.",
       techStackTitle: "My tech stack",
     },
   },
@@ -49,55 +49,47 @@ export const en: LocaleData = {
     techStackLabel: "Tech stack:",
     productivityLabel: "Productivity Tools:",
     items: {
-      "core-banking": {
-        role: "Banking Transaction System (Front End)",
-        highlights: [
-          "Developed and maintained mission-critical banking modules, including deposit and loan workflows, using Next.js, React.js, and TypeScript.",
-          "Implemented complex asynchronous data flows and API side effects using Redux Saga to support financial transaction workflows.",
-          "Built reusable and scalable UI components as part of the internal design system, improving consistency and development efficiency across the team.",
-          "Participated in code reviews and mentored junior developers to improve code quality and development practices.",
-          "Contributed to internal development tools and workflow improvements to increase frontend development efficiency.",
-        ],
-      },
-      ucaro: {
-        role: "University Admission & Registration System (Front End)",
-        highlights: [
-          "Architected responsive and SEO-friendly admission and registration workflows using Next.js, TypeScript, and Redux Toolkit, supporting complex multi-step processes and persistent user state.",
-          "Built reusable, highly validated form and UI components using React Hook Form, Yup, and TypeScript, improving development efficiency by 15% across subsequent modules while reducing form submission errors.",
-          "Maintained application reliability through Jest unit testing, reusable component architecture, and consistent frontend development practices.",
-        ],
-      },
-      nehop: {
-        role: "Hotel Management System (Front End)",
-        highlights: [
-          "Developed core hotel operation modules, including room booking and account management, using Angular",
-          "Implemented responsive and pixel-perfect interfaces based on design specifications while resolving critical QA and production defects",
-        ],
-      },
       fis: {
-        role: "Financial Information System (Full Stack)",
+        role: "Financial Information System (Full Stack) · 06/2026 - Present",
         highlights: [
-          "Developed and optimized core modules including Inspection Scheduling and Digital Signature using Vue.js and Quasar.",
-          "Collaborated directly with clients to analyze business requirements and translate them into technical solutions.",
-          "Supported User Acceptance Testing (UAT) by resolving functional issues and clarifying technical requirements.",
-          "Contributed to backend service development and automated test-case generation using GitHub Copilot, reducing feature delivery time by 20%.",
+          "Core PDF & Digital Signature Workflows: Spearheaded the end-to-end development of document processing modules, enabling seamless PDF generation, rendering, and secure digital signature integration using Vue.js and Quasar.",
+          "Analyzed business requirements: Collaborated directly with stakeholders to translate complex compliance and document workflow rules into production-ready technical architectures.",
+          "Accelerated delivery with AI tooling: Leveraged GitHub Copilot for backend service implementation and automated test-case generation, cutting feature delivery time by 20%.",
+          "Ensured system stability & UAT: Supported client User Acceptance Testing (UAT) by diagnosing root causes, hot-fixing document processing bugs, and clarifying technical specs.",
         ],
       },
       pubcare: {
-        role: "Pubcare System (Full Stack)",
+        role: "Pubcare System (Full Stack) · 04/2026 - Present",
         highlights: [
-          "Developed full-stack modules for patient queuing, appointment booking, and automated notifications",
-          "Collaborated directly with clients to analyze business requirements and translate them into technical solutions.",
-          "Optimized frontend workflows and backend REST APIs for medical staff while implementing input validation and role-based access control.",
-          "Supported User Acceptance Testing (UAT) by resolving functional issues and clarifying technical requirements.",
-          "Contributed to backend service development and automated test-case generation using GitHub Copilot, reducing feature delivery time by 20%.",
+          "Engineered end-to-end healthcare workflows: Architected patient queuing, online appointment booking, and automated notifications using Next.js, React, and PHP Laravel.",
+          "Optimized APIs & User Experience: Refactored frontend state management and streamlined backend RESTful APIs for medical staff, integrating RBAC (Role-Based Access Control) and strict validation.",
+          "Facilitated seamless client delivery: Actively led client requirement discussions and resolved critical UAT blockers to maintain high product stability.",
         ],
       },
-      kwn: {
-        role: "Knowledge Management System (Full Stack)",
+      ucaro: {
+        role: "University Admission & Registration System (Front End) · 05/2025 - 04/2026",
         highlights: [
-          "Modernized a legacy application from PHP 5 to PHP 8 while maintaining existing business functionality and improving application security.",
-          "Optimized legacy SQL queries and data rendering tables (DataTableJs), reducing page load times for administrative dashboards.",
+          "Architected high-performance web workflows: Designed responsive, SEO-friendly admission and registration pipelines using Next.js, TypeScript, and Redux Toolkit to support complex multi-step user journeys and persistent state.",
+          "Optimized form validation and efficiency: Engineered highly validated, reusable form UI components using React Hook Form, Yup, and TypeScript, boosting development efficiency by 15% and minimizing form submission errors.",
+          "Ensured application reliability: Maintained high code quality and test coverage through Jest unit testing, robust component architecture, and consistent frontend standards.",
+        ],
+      },
+      nehop: {
+        role: "Hospitality Management System (Full Stack) · 05/2024 - 05/2025",
+        highlights: [
+          "End-to-End Architecture & Design: Authored Detailed Design (DD) and Unit Test (UT) documentation while architecting end-to-end workflows connecting Next.js frontends with Java Spring Boot backend services.",
+          "Backend APIs & Business Logic: Developed secure RESTful APIs using Java Spring Boot to handle complex hospitality workflows, including reservation queuing, table booking, and billing logic.",
+          "Database Optimization: Designed and optimized PostgreSQL database structures to ensure strict data consistency and high-speed query execution.",
+          "Frontend Execution & Quality: Built responsive web interfaces and reusable form components using Next.js, Redux Toolkit, and React Hook Form, while maintaining test coverage with Jest.",
+        ],
+      },
+      "core-banking": {
+        role: "Banking Transaction System (Front End) · 05/2022 - 05/2024",
+        highlights: [
+          "Developed mission-critical financial modules: Spearheaded the development of core banking workflows including deposit and loan processing using Next.js and TypeScript.",
+          "Managed complex asynchronous data flows: Implemented advanced API side effects and state management using Redux Saga to handle secure financial transaction workflows.",
+          "Built scalable design systems: Created reusable UI components as part of the internal design system, driving consistency and improving cross-team development efficiency.",
+          "Drove technical leadership & quality: Actively participated in code reviews, mentored junior developers on best coding practices, and contributed to internal tooling to optimize frontend performance.",
         ],
       },
     },

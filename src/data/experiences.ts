@@ -7,9 +7,18 @@ export interface ExperienceEntry {
 
 export const experienceEntries: ExperienceEntry[] = [
   {
-    id: "core-banking",
+    id: "fis",
     techStack:
-      "TypeScript, Next.js, React.js, Redux Saga, Styled Components, Formik, Yup, i18n, Jest, Storybook",
+      "Vue.js, Quasar, SCSS, Vitest, C#, ASP.NET Core, Pinia, SQL Server, Postman",
+    productivityToolsEn:
+      "GitHub Copilot (Used for backend service implementation and automated test-case generation)",
+    productivityToolsVi:
+      "GitHub Copilot (Sử dụng để triển khai dịch vụ backend và tự động tạo kịch bản kiểm thử).",
+  },
+  {
+    id: "pubcare",
+    techStack:
+      "Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest, PHP Laravel, Docker, MySQL",
   },
   {
     id: "ucaro",
@@ -19,28 +28,11 @@ export const experienceEntries: ExperienceEntry[] = [
   {
     id: "nehop",
     techStack:
-      "Angular, CSS, HTML, PostgreSQL, Excel, VB.Net, Java Spring Batch",
+      "Next.js, React.js, Java Spring Boot, PostgreSQL, RESTful APIs, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest",
   },
   {
-    id: "fis",
+    id: "core-banking",
     techStack:
-      "ASP.NET Core 8, VueJS, SQL Server, Quasar Build, Vitest, Postman, SCSS",
-    productivityToolsEn:
-      "GitHub Copilot (Used for boilerplate code generation and Vitest unit testing scaffolding)",
-    productivityToolsVi:
-      "GitHub Copilot (Sử dụng để tự động tạo mã nguồn mẫu và dựng khung kiểm thử đơn vị với Vitest).",
-  },
-  {
-    id: "pubcare",
-    techStack:
-      "Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest. PHP Laravel, Docker, MySQL",
-    productivityToolsEn:
-      "GitHub Copilot (Used for boilerplate code generation and Jest unit testing scaffolding)",
-    productivityToolsVi:
-      "GitHub Copilot (Sử dụng để tự động tạo mã nguồn mẫu và dựng khung kiểm thử đơn vị với Jest).",
-  },
-  {
-    id: "kwn",
-    techStack: "PHP, HTML, JavaScript, jQuery, SASS, DataTableJs",
+      "Next.js, React.js, TypeScript, React Hook Form, Redux Toolkit, i18n, Jest",
   },
 ];

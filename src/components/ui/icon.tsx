@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { DiMsqlServer } from "react-icons/di";
+import { DiJava, DiMsqlServer } from "react-icons/di";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 import {
@@ -9,13 +9,11 @@ import {
   SiGithubcopilot,
   SiGit,
   SiGitlab,
-  SiGooglegemini,
   SiHtml5,
   SiJavascript,
   SiMui,
   SiMysql,
   SiNextdotjs,
-  SiOpenai,
   SiPostman,
   SiPostgresql,
   SiReact,
@@ -25,9 +23,26 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVuedotjs,
+  SiAngular,
+  SiDotnet,
+  SiFigma,
+  SiFormik,
+  SiJest,
+  SiJsonwebtokens,
+  SiLaravel,
+  SiMongodb,
+  SiPhp,
+  SiReduxsaga,
+  SiSpringboot,
+  SiStorybook,
+  SiTestinglibrary,
+  SiVitest,
+  SiZod,
 } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const iconMap: Record<string, IconType> = {
+  DiJava,
   DiMsqlServer,
   FaGithub,
   FaLinkedin,
@@ -38,13 +53,11 @@ const iconMap: Record<string, IconType> = {
   SiGithubcopilot,
   SiGit,
   SiGitlab,
-  SiGooglegemini,
   SiHtml5,
   SiJavascript,
   SiMui,
   SiMysql,
   SiNextdotjs,
-  SiOpenai,
   SiPostman,
   SiPostgresql,
   SiReact,
@@ -54,6 +67,22 @@ const iconMap: Record<string, IconType> = {
   SiTailwindcss,
   SiTypescript,
   SiVuedotjs,
+  SiAngular,
+  SiDotnet,
+  SiFigma,
+  SiFormik,
+  SiJest,
+  SiJsonwebtokens,
+  SiLaravel,
+  SiMongodb,
+  SiPhp,
+  SiReduxsaga,
+  SiSpringboot,
+  SiStorybook,
+  SiTestinglibrary,
+  SiVitest,
+  SiZod,
+  TbBrandCSharp,
 };
 
 interface IconProps {

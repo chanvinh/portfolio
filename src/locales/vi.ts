@@ -16,7 +16,7 @@ export const vi: LocaleData = {
     closeMenu: "Đóng menu",
   },
   profile: {
-    role: "Lập trình viên Web",
+    role: "Kỹ sư phần mềm Full-Stack",
     hero: {
       greeting: {
         before: "Xin chào! Tôi là Chấn Vinh, một ",
@@ -36,10 +36,10 @@ export const vi: LocaleData = {
       sectionLabel: "Giới thiệu & Kỹ năng",
       introTitle: "Xin chào! Tôi là {name}, {role}",
       intro:
-        "Nhà phát triển phần mềm có hơn 4 năm kinh nghiệm xây dựng các ứng dụng web doanh nghiệp, có chuyên môn vững chắc về React.js, Next.js, TypeScript và Hệ thống thiết kế giao diện người dùng. Thành tích đã được chứng minh trong việc tối ưu hóa Core Web Vitals, phát triển giao diện người dùng có thể truy cập, phát triển theo hướng thành phần với Storybook và thiết kế Kiến trúc thông tin hiệu quả. Đã làm việc trong các lĩnh vực ngân hàng, giáo dục, y tế, thông tin tài chính và hệ thống quản lý doanh nghiệp; phối hợp chặt chẽ với các nhóm đa chức năng và khách hàng để triển khai các giải pháp hoàn thiện, sẵn sàng đưa vào vận hành thực tế.",
-      expertiseTitle: "Lĩnh vực chính là phát triển front-end",
+        "Kỹ sư phần mềm Full-Stack với hơn 4 năm kinh nghiệm phát triển và đưa vào vận hành các ứng dụng web doanh nghiệp trong lĩnh vực ngân hàng, y tế, giáo dục và thông tin tài chính. Tôi đảm nhận tính năng từ đầu đến cuối: frontend React/Next.js và Vue.js cùng các RESTful API bằng ASP.NET Core, PHP Laravel và Java Spring Boot trên PostgreSQL, SQL Server và MySQL, với kiến trúc rõ ràng, kiểm tra dữ liệu chặt chẽ (Yup, Zod) và phân quyền RBAC. Gần đây tôi đã xây dựng hệ thống quy trình tài liệu tài chính, SaaS quản lý hàng chờ phòng khám và nền tảng giao dịch ngân hàng doanh nghiệp.",
+      expertiseTitle: "Phát triển web full-stack, từ giao diện dễ tiếp cận đến API bảo mật",
       expertise:
-        "Luôn chủ động, có kỹ năng giải quyết vấn đề, quản lý thời gian và giao tiếp tốt, có khả năng thích ứng nhanh với công nghệ mới và yêu cầu nghiệp vụ. Có kinh nghiệm HTML5, CSS3, JavaScript/TypeScript, xây dựng ứng dụng web quy mô vừa và lớn với React và Next.js, cùng Redux, React Query, React Hook Form và unit testing với Jest và Vitest.",
+        "Tôi tham gia toàn bộ vòng đời phát triển sản phẩm: thiết kế dịch vụ backend bảo mật, tối ưu hiệu năng truy vấn cơ sở dữ liệu, xây dựng hệ thống giao diện dễ tiếp cận và tăng tốc phát triển bằng công cụ AI (GitHub Copilot, Cursor AI). Tôi có thể đọc hiểu, làm rõ và xác nhận đặc tả kỹ thuật, yêu cầu nghiệp vụ bằng tiếng Anh, có kinh nghiệm làm việc với khách hàng Nhật Bản và từng quản lý nhóm ở vai trò sub-leader. Có kỹ năng giải quyết vấn đề, quản lý thời gian, làm việc nhóm tốt và thích ứng nhanh với công nghệ mới. Hiện đang nghiên cứu Microservices, CI/CD với GitHub Actions và AWS.",
       techStackTitle: "Tech stack của tôi",
     },
   },
@@ -50,55 +50,47 @@ export const vi: LocaleData = {
     techStackLabel: "Tech stack:",
     productivityLabel: "Productivity Tools:",
     items: {
-      "core-banking": {
-        role: "Banking Transaction System (Front End)",
-        highlights: [
-          "Phát triển và bảo trì các mô-đun ngân hàng trọng yếu, bao gồm quy trình gửi tiền và cho vay, sử dụng Next.js, React.js và TypeScript.",
-          "Triển khai các luồng dữ liệu bất đồng bộ phức tạp và xử lý các tác dụng phụ (side effects) của API bằng Redux Saga để hỗ trợ quy trình giao dịch tài chính.",
-          "Xây dựng các thành phần giao diện (UI components) có khả năng tái sử dụng và mở rộng trong hệ thống thiết kế nội bộ, giúp tăng tính nhất quán và hiệu suất phát triển của cả nhóm.",
-          "Tham gia đánh giá mã nguồn (code review) và hướng dẫn các lập trình viên cấp dưới nhằm nâng cao chất lượng mã và quy trình phát triển.",
-          "Đóng góp vào việc xây dựng các công cụ phát triển nội bộ và cải tiến quy trình làm việc để tăng hiệu suất phát triển front-end.",
-        ],
-      },
-      ucaro: {
-        role: "University Admission & Registration System (Front End)",
-        highlights: [
-          "Thiết kế kiến ​​trúc cho quy trình tuyển sinh và đăng ký có giao diện thích ứng (responsive) và thân thiện với SEO bằng Next.js, TypeScript và Redux Toolkit; hỗ trợ các quy trình đa bước phức tạp và duy trì trạng thái người dùng xuyên suốt.",
-          "Xây dựng các thành phần biểu mẫu (form) và giao diện có khả năng tái sử dụng cùng cơ chế kiểm tra dữ liệu chặt chẽ (sử dụng React Hook Form, Yup và TypeScript), giúp tăng 15% hiệu suất phát triển cho các mô-đun sau đó đồng thời giảm thiểu lỗi khi gửi biểu mẫu.",
-          "Đảm bảo độ tin cậy của ứng dụng thông qua kiểm thử đơn vị (unit testing) với Jest, kiến ​​trúc thành phần có thể tái sử dụng và các quy trình phát triển front-end nhất quán.",
-        ],
-      },
-      nehop: {
-        role: "Hotel Management System (Front End)",
-        highlights: [
-          "Phát triển các mô-đun vận hành khách sạn cốt lõi, bao gồm đặt phòng và quản lý tài khoản, sử dụng Angular.",
-          "Triển khai giao diện thích ứng (responsive) và đảm bảo độ chính xác tuyệt đối so với thiết kế (pixel-perfect), đồng thời khắc phục các lỗi nghiêm trọng phát sinh trong quá trình kiểm thử (QA) và vận hành thực tế (production).",
-        ],
-      },
       fis: {
-        role: "Financial Information System (Full Stack)",
+        role: "Financial Information System (Full Stack) · 06/2026 - Hiện tại",
         highlights: [
-          "Phát triển và tối ưu hóa các mô-đun cốt lõi bao gồm Lập lịch Kiểm tra và Chữ ký số bằng Vue.js và Quasar.",
-          "Phối hợp trực tiếp với khách hàng để phân tích yêu cầu nghiệp vụ và chuyển đổi chúng thành các giải pháp kỹ thuật.",
-          "Hỗ trợ giai đoạn Kiểm thử chấp nhận người dùng (UAT) bằng cách giải quyết các vấn đề về chức năng và làm rõ các yêu cầu kỹ thuật.",
-          "Đóng góp vào việc phát triển dịch vụ backend và tạo các kịch bản kiểm thử tự động bằng GitHub Copilot, giúp giảm 20% thời gian triển khai tính năng.",
+          "Quy trình PDF & Chữ ký số cốt lõi: Dẫn dắt phát triển end-to-end các mô-đun xử lý tài liệu, hỗ trợ tạo, hiển thị PDF và tích hợp chữ ký số an toàn bằng Vue.js và Quasar.",
+          "Phân tích yêu cầu nghiệp vụ: Phối hợp trực tiếp với các bên liên quan để chuyển đổi các quy tắc tuân thủ và quy trình tài liệu phức tạp thành kiến trúc kỹ thuật sẵn sàng vận hành.",
+          "Tăng tốc bàn giao với công cụ AI: Sử dụng GitHub Copilot để triển khai dịch vụ backend và tự động tạo kịch bản kiểm thử, giúp giảm 20% thời gian bàn giao tính năng.",
+          "Đảm bảo ổn định hệ thống & UAT: Hỗ trợ khách hàng trong giai đoạn Kiểm thử chấp nhận người dùng (UAT) bằng cách phân tích nguyên nhân gốc, khắc phục nhanh lỗi xử lý tài liệu và làm rõ đặc tả kỹ thuật.",
         ],
       },
       pubcare: {
-        role: "Pubcare System (Full Stack)",
+        role: "Pubcare System (Full Stack) · 04/2026 - Hiện tại",
         highlights: [
-          "Phát triển các mô-đun full-stack cho quy trình xếp hàng chờ khám, đặt lịch hẹn và hệ thống thông báo tự động.",
-          "Phối hợp trực tiếp với khách hàng để phân tích yêu cầu nghiệp vụ và chuyển đổi chúng thành các giải pháp kỹ thuật.",
-          "Tối ưu hóa quy trình làm việc ở giao diện người dùng (frontend) và các REST API phía máy chủ (backend) dành cho nhân viên y tế, đồng thời triển khai cơ chế kiểm tra dữ liệu đầu vào và phân quyền truy cập dựa trên vai trò.",
-          "Hỗ trợ giai đoạn Kiểm thử chấp nhận người dùng (UAT) bằng cách giải quyết các vấn đề về chức năng và làm rõ các yêu cầu kỹ thuật.",
-          "Đóng góp vào việc phát triển dịch vụ backend và tạo các kịch bản kiểm thử tự động bằng GitHub Copilot, giúp giảm 20% thời gian triển khai tính năng.",
+          "Xây dựng quy trình y tế end-to-end: Thiết kế chức năng xếp hàng chờ khám, đặt lịch hẹn trực tuyến và thông báo tự động bằng Next.js, React và PHP Laravel.",
+          "Tối ưu API & trải nghiệm người dùng: Tái cấu trúc quản lý state phía frontend và tinh gọn các RESTful API backend cho nhân viên y tế, tích hợp phân quyền theo vai trò (RBAC) và kiểm tra dữ liệu chặt chẽ.",
+          "Bàn giao suôn sẻ cho khách hàng: Chủ động dẫn dắt các buổi trao đổi yêu cầu với khách hàng và xử lý các vấn đề nghiêm trọng trong UAT để duy trì độ ổn định cao của sản phẩm.",
         ],
       },
-      kwn: {
-        role: "Knowledge Management System (Full Stack)",
+      ucaro: {
+        role: "University Admission & Registration System (Front End) · 05/2025 - 04/2026",
         highlights: [
-          "Hiện đại hóa ứng dụng cũ từ PHP 5 lên PHP 8 trong khi vẫn duy trì các chức năng nghiệp vụ hiện có và tăng cường tính bảo mật cho ứng dụng.",
-          "Tối ưu hóa các truy vấn SQL và bảng hiển thị dữ liệu (DataTableJs) từ hệ thống cũ, giúp giảm thời gian tải trang cho các bảng điều khiển quản trị.",
+          "Thiết kế quy trình web hiệu năng cao: Xây dựng luồng tuyển sinh và đăng ký thích ứng (responsive), thân thiện SEO bằng Next.js, TypeScript và Redux Toolkit, hỗ trợ hành trình người dùng đa bước phức tạp và duy trì trạng thái.",
+          "Tối ưu kiểm tra dữ liệu biểu mẫu và hiệu suất: Xây dựng các thành phần biểu mẫu có thể tái sử dụng với cơ chế kiểm tra chặt chẽ bằng React Hook Form, Yup và TypeScript, tăng 15% hiệu suất phát triển và giảm thiểu lỗi khi gửi biểu mẫu.",
+          "Đảm bảo độ tin cậy của ứng dụng: Duy trì chất lượng mã và độ bao phủ kiểm thử cao thông qua unit test với Jest, kiến trúc thành phần vững chắc và tiêu chuẩn frontend nhất quán.",
+        ],
+      },
+      nehop: {
+        role: "Hospitality Management System (Full Stack) · 05/2024 - 05/2025",
+        highlights: [
+          "Kiến trúc & thiết kế end-to-end: Viết tài liệu Thiết kế chi tiết (DD) và Kiểm thử đơn vị (UT), đồng thời thiết kế các luồng end-to-end kết nối frontend Next.js với các dịch vụ backend Java Spring Boot.",
+          "API backend & logic nghiệp vụ: Phát triển các RESTful API an toàn bằng Java Spring Boot để xử lý các quy trình nhà hàng - khách sạn phức tạp, bao gồm xếp hàng đặt chỗ, đặt bàn và tính hóa đơn.",
+          "Tối ưu cơ sở dữ liệu: Thiết kế và tối ưu cấu trúc cơ sở dữ liệu PostgreSQL nhằm đảm bảo tính nhất quán dữ liệu và tốc độ truy vấn cao.",
+          "Triển khai frontend & chất lượng: Xây dựng giao diện web thích ứng và các thành phần biểu mẫu tái sử dụng bằng Next.js, Redux Toolkit và React Hook Form, đồng thời duy trì độ bao phủ kiểm thử với Jest.",
+        ],
+      },
+      "core-banking": {
+        role: "Banking Transaction System (Front End) · 05/2022 - 05/2024",
+        highlights: [
+          "Phát triển các mô-đun tài chính trọng yếu: Dẫn dắt phát triển các quy trình ngân hàng cốt lõi bao gồm xử lý gửi tiền và cho vay bằng Next.js và TypeScript.",
+          "Quản lý luồng dữ liệu bất đồng bộ phức tạp: Triển khai xử lý side effect của API và quản lý state nâng cao bằng Redux Saga để xử lý an toàn các quy trình giao dịch tài chính.",
+          "Xây dựng hệ thống thiết kế có khả năng mở rộng: Tạo các UI component tái sử dụng trong hệ thống thiết kế nội bộ, tăng tính nhất quán và hiệu suất phát triển giữa các nhóm.",
+          "Dẫn dắt kỹ thuật & chất lượng: Tích cực tham gia code review, hướng dẫn lập trình viên junior về các phương pháp lập trình tốt và đóng góp công cụ nội bộ để tối ưu hiệu năng frontend.",
         ],
       },
     },
